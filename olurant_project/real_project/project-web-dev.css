@@ -1,0 +1,198 @@
+.body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: rgb(243, 232, 232)
+}
+.nav-div{
+   width: 100%;
+   display: flex;
+   align-items: center;
+}
+.list-item{
+    width: 90%;
+    display: flex;
+}
+.design-div{
+    width: 20%;
+    display: flex;
+    margin: 0px 0px 0px 30px;
+}
+.a_div{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: 800;
+    
+}
+.UI-circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(27, 1, 31);
+    margin: 5px 5px;
+}
+.UI-paragraph{
+    color: rgb(255, 255, 255);
+    padding: 2px 1px;
+    text-align: center;
+    margin: 1px 1px;
+    font-weight: 800;
+    font-size: 14px 
+}
+.ui_div{
+    width: 200px;
+    display: flex;
+    margin: 0px;
+    padding: 10px 10px; 
+}
+ul li{
+    padding: 5px 10px;
+    list-style-type: none;
+    margin: 0px 10px;
+    display: inline-flex;
+    text-transform: capitalize;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(0,0,0);
+}
+.image-button-div{
+    width: 35%;
+    display: flex;
+    align-items: center;
+    margin: 0px 9px 0px 50px;
+}
+.h1{
+    font-family: sans-serif;
+    font-style: bold;
+    font-size: 100%;
+}
+.bnt1{
+    background-color: rgb(20, 0, 16);
+    color: rgb(255,255,255);
+    border-radius: 5px;
+    border-width: thin;
+    width: 60%;
+    text-align: center;   
+    padding: 5px;
+    margin: 5px;
+}
+.bnt2{
+    background-color: rgb(255,255,255);
+    color: rgb(26, 0, 26);
+    border-radius: 5px;
+    border-width: thin;
+    width: 60%;
+    text-align: center;   
+    padding: 5px;
+    margin: 7px;
+}
+.bnt3{
+    background-color: rgb(32, 0, 28);
+    color: rgb(255,255,255);
+    border-radius: 5px;
+    border-width: thin;
+    width: 20%;
+    text-align: center;   
+    padding: 3px;
+    margin: 0px 0px 0px 10px;
+}
+.bnt4{
+    background-color: rgb(255,255,255);
+    color: rgb(29, 0, 29);
+    border-radius: 5px;
+    border-width: thin;
+    width: 100%;
+    text-align: center;   
+    padding: 5px;
+}
+.bnt5{
+    background-color: rgb(255,255,255);
+    color: rgb(34, 34, 34);
+    border-radius: 5px;
+    border-width: thin;
+    width: 108%;
+    text-align: center;   
+    padding: 5px;
+
+}
+input::placeholder{
+    margin: 0px 0px;
+    padding: 0px 0px;
+    float:left;
+    font-family: sans-serif;
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+.body_div{
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 2% 2% 5%;
+}
+.sidebody_div{
+    box-sizing: border-box;
+    width: 200px;
+    height: 250px;
+    border-width: 0px 0.1px 0px 0px;
+    border-color: rgb(226, 226, 226);
+    border-style: inset;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    font-size: 80%;
+    text-align: left;
+    font-weight: 900;
+} 
+.sidebody2_div{
+    text-align: left;
+    font-weight: 400;
+    margin: 5px 5px 30px 15px;
+    font-size: 10px;    
+}
+.p1_div{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+}
+.secondbody_div{
+    padding: 50px 0px 0px 20px;
+}
+.downbody_div{
+    padding: 0.1px 0px 0px 0.1px;
+}
+.img1{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.img2{
+    float: left;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 5px;
+    box-shadow: 0px 5px 3px 0px rgba(24, 24, 24, 0.4);
+    scrollbar-shadow-color: rgb(22, 22, 22);
+    border-color: rgb(255, 255, 255);
+}
+.firstname_div{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    margin:  60px 60px 1px 5px;    
+}
+.nav_tag{
+    width: 100%;
+    display: flex;
+    justify-items: center;
+}
+.bodyheading2_div{
+    width: 150%;
+    display: flex;
+    padding: 5px 0px 0px 0px;
+}
+.button_div{
+    display: inline-block;
+    justify-content: space-between;
+    width: 200px;
+    padding: 20px;   
+}

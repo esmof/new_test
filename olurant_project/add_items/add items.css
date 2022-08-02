@@ -1,0 +1,65 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(229, 182, 253, 0.7);
+    background-position: center;
+}
+.body_div{
+    width: 25%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px 10px 10px 30px ;
+    margin:  100px auto;
+    font-family: sans-serif;
+    color: rgb(102, 7, 102)
+}
+.word_div{
+    margin: 5px 5px 5px 5px;
+}
+.bnt1{
+    border-radius: 5px;
+    border-width: thin;
+    width: 200px;
+    padding: 8px;
+}
+.bnt2{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    border-width: 0px;
+    width: 98px;
+    text-align: center;   
+    padding: 5px;
+    margin: 5px;
+}
+.bnt3{
+    background-color: rgb(28, 13, 65);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border-width: 0px;
+    width: 98px;
+    text-align: center;   
+    padding: 5px;
+    margin: 7px;
+}
+.p1{
+    font-size: 10px;
+    font-weight: bold;
+}
+input::placeholder{
+    margin: 0px 0px;
+    padding: 0px 0px;
+    float:left;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+.x{
+    margin: 5px 5px 5px 250px;
+    color: rgba(59, 59, 59, 0.5)
+}
+@media screen  and (max-width: 300px){
+    .bnt2{
+        background-color: black;
+    }
+}                                                                                                                                                                                                                                                j
